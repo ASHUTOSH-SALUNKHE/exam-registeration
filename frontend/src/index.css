@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme{
+  --breakpoint-a51 : 412px;
+  --breakpoint-im : 767px;
+  --breakpoint-ime :889px;
+}
+@keyframes moveText {
+    0% {
+      transform: translateX(100vw);
+    }
+    35% {
+      transform: translateX(0);
+    }
+    65% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100vw);
+    }
+  }
+
+  .text-animation {
+    display: inline-block;
+    font-size: 14px;
+    color:white;
+    animation: moveText 20s linear infinite;
+  }
+
+  
