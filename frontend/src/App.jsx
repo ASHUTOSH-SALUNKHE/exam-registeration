@@ -3,7 +3,7 @@ import HomePage from './pages/HomePage'
 import SignUpPage from './pages/SignUpPage'
 import LoginPage from './pages/LoginPage'
 import ProfilePage from './pages/ProfilePage'
-import RegisterPage from './pages/rgpage'
+import RegisterPage from './pages/RegisterPage'
 import Navbar1 from "./components/Navbar1"
 import Navbar2 from "./components/Navbar2"
 import Navbar3 from "./components/Navbar3"
